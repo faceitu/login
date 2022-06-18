@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Josefin+Sans:wght@500&family=Lobster&family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:ital@1&family=Tiro+Kannada:ital@0;1&display=swap');
+
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.container {
+    background: #bd3249;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    gap: 80px;
+    height: 100%;
+    width: 300px;    
+}
+.saludo_container {
+    margin-top: 150px;
+}
+.saludo_item {
+    font-family: 'Fascinate', cursive;
+    font-size: 2.4rem;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.saludo2_item {
+    font-family: 'Fascinate', cursive;
+    font-weight:100;
+    font-size: 1rem;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.formulario_container {
+    color: white;
+    
+}
+.login_container input {
+    padding: 10px;
+    width: 240px;
+    border: none;
+    background-color: #4E0D35;
+    color: white;
+    border-bottom: 1px rgb(243, 197, 197,0.1) solid;
+}
+.submit_container {
+    margin-top: 10px ;
+}
+.submit_container input {
+    padding: 10px;
+    width: 240px;
+    border: none;
+    background-color: #370223;
+    color: white;
+    border: 1px rgb(243, 197, 197,0.1) solid;
+}
+.crear_cuenta{
+    padding: 8px;
+    color: rgb(167, 167, 167);
+    padding-left: 20px;
+}
+.nueva{
+    text-decoration: double;
+    color: white;
+}
