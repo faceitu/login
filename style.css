@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
+   height: 100vh;
 }
 .container {
     background: #bd3249;  /* fallback for old browsers */
@@ -74,3 +74,35 @@ body {
     text-decoration: double;
     color: white;
 }
+.submit_container {
+    border: 2px #240b36 solid;
+}
+.submit_container:hover {
+    transition: .5s;
+    border: 1px #bd3249 solid;
+}
+
+.text_login:hover {
+    transition: .5s;
+    border: 1px #bd3249 solid;
+}
+
+@media screen and (min-width:401px) {
+
+    .container {
+        width:100%;    
+    }
+
+    .login_container input {
+        padding: 12px;
+        width: 390px;
+        border: none;
+        background-color: #4E0D35;
+        color: white;
+        border-bottom: 1px rgb(243, 197, 197,0.1) solid;
+    }
+    .submit_container input {
+        width: 390px;
+    }
+
+} 
